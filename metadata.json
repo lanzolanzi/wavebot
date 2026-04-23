@@ -1,0 +1,6 @@
+{
+  "name": "WaveBot",
+  "description": "Dashboard per controllo operazioni navali USV e AUV con gestione comunicazioni acustiche/ottiche.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
