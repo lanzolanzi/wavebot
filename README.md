@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+WaveBot 🌊
+Dashboard per controllo operazioni navali USV e AUV con gestione comunicazioni acustiche/ottiche.
+Screenshot
 
-# Run and deploy your AI Studio app
+<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/d1a2ad05-0d4e-4dcd-a5b9-99e29f2feec4" />
 
-This contains everything you need to run your app locally.
+Tech Stack
+React 19 · TypeScript · Vite · Tailwind CSS 4 · Leaflet · Express · Framer Motion · @google/genai
+Funzionalità principali
 
-View your app in AI Studio: https://ai.studio/apps/58cb9986-9ccf-4af0-b3ad-345b2745c166
+Controllo missione in tempo reale con fasi operative (Deploy → AUV Release → Data Collection → Homing → Docking)
+Mappa interattiva con tracciamento USV e AUV tramite Leaflet
+Telemetria AUV in tempo reale (profondità, temperatura, pH, heading, velocità)
+Comunicazioni multi-link: RF Sat/4G, modem acustico, modem ottico (docking)
+Sistema batterie con protezioni automatiche e safety interlock
+Emergenza risalita rapida con balloon system
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Realizzato da Lorenzo Lavezzi, Stefano Musolino e Francesca Arrigo
